@@ -9,46 +9,69 @@ import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import kotlinx.android.synthetic.main.activity_list.*
+import android.view.View
+import kotlinx.android.synthetic.main.activity_details.*
+class DetailsActivity : AppCompatActivity() {
 
-class ListActivity : AppCompatActivity() {
-
-    lateinit var adaptador: PacienteAdapter
-    lateinit var paciente: ArrayList<Paciente>
+    var paciente: Paciente? = null
+    lateinit var adaptador: LibroAdapter
+    lateinit var medicina: ArrayList<Medicina>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list)
+        setContentView(R.layout.activity_details)
 
-        paciente = DataBasePaciente.getList()
+        paciente = intent.getParcelableExtra("autor")
+
+        txtShowNombreAutor.text = paciente?.nombre
+        txtShowApellidoAutor.text = paciente?.apellido
+        txtShowFechaNAutor.text = paciente?.fechaNacimiento
+        txtShowNumLibAutor.text = paciente?.numeroHijos.toString()
+        txtShowEcuAutor.text = if(paciente?.ecuatoriano == 1) getString(R.string.yes) else getString(R.string.no)
+
+        medicina = DataBaseMedicina.getMedicinaList(paciente?.id!!)
 
         val layoutManager = LinearLayoutManager(this)
-        adaptador = PacienteAdapter(paciente)
-        recycler_view.layoutManager = layoutManager
-        recycler_view.itemAnimator = DefaultItemAnimator()
-        recycler_view.adapter = adaptador
+        adaptador = LibroAdapter(medicina)
+        recycler_view_book.layoutManager = layoutManager
+        recycler_view_book.itemAnimator = DefaultItemAnimator()
+        recycler_view_book.adapter = adaptador
         adaptador.notifyDataSetChanged()
 
-        registerForContextMenu(recycler_view)
+        registerForContextMenu(recycler_view_book)
+
+        btnNuevoLibro.setOnClickListener{
+            v: View? ->  crearLibro()
+        }
+
+
     }
+
+    fun crearLibro() {
+        val intent = Intent(this, CreateMedicinaActivity::class.java)
+        intent.putExtra("tipo", "Create")
+        intent.putExtra("idPaciente", paciente?.id!!)
+        startActivity(intent)
+    }
+
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
         var position = adaptador.getPosition()
-        var paciente = paciente[position]
+        var medicina = medicina[position]
 
         when (item.itemId) {
             R.id.item_menu_compartir1 -> {
                 val intent = Intent(Intent.ACTION_SEND)
                 intent.type = "text/html"
-                intent.putExtra(Intent.EXTRA_SUBJECT, "${getString(R.string.autor)} - ${getString(R.string.app_name)}")
-                intent.putExtra(Intent.EXTRA_TEXT, "${getString(R.string.name)} ${paciente.nombre} ${paciente.apellido}\n${getString(R.string.numero_libros)} ${paciente.numeroHijos}\n${getString(R.string.fecha_nacimiento)} ${paciente.fechaNacimiento}")
+                intent.putExtra(Intent.EXTRA_SUBJECT, "${getString(R.string.libro)} - ${getString(R.string.app_name)}")
+                intent.putExtra(Intent.EXTRA_TEXT, "${getString(R.string.isbn)} ${medicina.gramosAConsumir}\n${getString(R.string.name)} ${medicina.nombre}\n${getString(R.string.edicion)} ${medicina.numeroPastillas}\n${getString(R.string.editorial)} ${medicina.usadaPara}")
                 startActivity(intent)
                 return true
             }
             R.id.item_menu_editar -> {
-                val intent = Intent(this, CreateActivity::class.java)
+                val intent = Intent(this, CreateMedicinaActivity::class.java)
                 intent.putExtra("tipo", "Edit")
-                intent.putExtra("paciente", paciente)
+                intent.putExtra("libro", medicina)
                 startActivity(intent)
                 return true
             }
@@ -56,7 +79,7 @@ class ListActivity : AppCompatActivity() {
                 val builder = AlertDialog.Builder(this)
                 builder.setMessage(R.string.confirmation)
                         .setPositiveButton(R.string.yes, { dialog, which ->
-                            DataBasePaciente.deleteAutor(paciente.id)
+                            DataBaseMedicina.deleteMedicina(medicina.id)
                             finish()
                             startActivity(intent)
                         }
@@ -93,5 +116,4 @@ class ListActivity : AppCompatActivity() {
             }
         }
     }
-
 }

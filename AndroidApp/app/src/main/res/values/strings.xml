@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Examen Moviles</string>
     <string name="libro">Medicina</string>
-    <string name="autor">Paciente</string>
+    <string name="paciente">Paciente</string>
     <string name="details_btn">Detalles</string>
     <string name="create_btn">Guardar</string>
     <string name="create">Crear</string>
@@ -35,6 +35,6 @@
     <string name="title_activity_login">Inicio</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="title_activity_create_activity">CreateActivityActivity</string>
-
+    <string name="button_find">Buscar</string>
 
 </resources>

@@ -5,12 +5,24 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import kotlinx.android.synthetic.main.activity_details_medicina.*
 
-class DeliveryActivity : AppCompatActivity() {
+class DetailsMedicinaActivity : AppCompatActivity() {
+
+    var medicina: Medicina? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_delivery)
+        setContentView(R.layout.activity_details_medicina)
+
+        medicina= intent.getParcelableExtra("libro")
+
+        txtShowIsbn.text = medicina?.gramosAConsumir
+        txtShowNombreLibro.text = medicina?.nombre
+        txtShowNumPagLibro.text = medicina?.numeroPastillas.toString()
+        txtShowEdicLibro.text = medicina?.composicion
+        txtShowFechaPLibro.text = medicina?.fechaCaducidad
+        txtShowEditorialLibro.text = medicina?.usadaPara
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
