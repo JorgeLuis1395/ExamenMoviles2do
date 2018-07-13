@@ -14,14 +14,14 @@ import kotlinx.android.synthetic.main.activity_details.*
 class DetailsActivity : AppCompatActivity() {
 
     var paciente: Paciente? = null
-    lateinit var adaptador: LibroAdapter
+    lateinit var adaptador: MedicinaAdapter
     lateinit var medicina: ArrayList<Medicina>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
-        paciente = intent.getParcelableExtra("autor")
+        paciente = intent.getParcelableExtra("paciente")
 
         txtShowNombreAutor.text = paciente?.nombre
         txtShowApellidoAutor.text = paciente?.apellido
@@ -32,7 +32,7 @@ class DetailsActivity : AppCompatActivity() {
         medicina = DataBaseMedicina.getMedicinaList(paciente?.id!!)
 
         val layoutManager = LinearLayoutManager(this)
-        adaptador = LibroAdapter(medicina)
+        adaptador = MedicinaAdapter(medicina)
         recycler_view_book.layoutManager = layoutManager
         recycler_view_book.itemAnimator = DefaultItemAnimator()
         recycler_view_book.adapter = adaptador
@@ -41,13 +41,13 @@ class DetailsActivity : AppCompatActivity() {
         registerForContextMenu(recycler_view_book)
 
         btnNuevoLibro.setOnClickListener{
-            v: View? ->  crearLibro()
+            v: View? ->  crearMedicina()
         }
 
 
     }
 
-    fun crearLibro() {
+    fun crearMedicina() {
         val intent = Intent(this, CreateMedicinaActivity::class.java)
         intent.putExtra("tipo", "Create")
         intent.putExtra("idPaciente", paciente?.id!!)
@@ -63,7 +63,7 @@ class DetailsActivity : AppCompatActivity() {
             R.id.item_menu_compartir1 -> {
                 val intent = Intent(Intent.ACTION_SEND)
                 intent.type = "text/html"
-                intent.putExtra(Intent.EXTRA_SUBJECT, "${getString(R.string.libro)} - ${getString(R.string.app_name)}")
+                intent.putExtra(Intent.EXTRA_SUBJECT, "${getString(R.string.medicina)} - ${getString(R.string.app_name)}")
                 intent.putExtra(Intent.EXTRA_TEXT, "${getString(R.string.isbn)} ${medicina.gramosAConsumir}\n${getString(R.string.name)} ${medicina.nombre}\n${getString(R.string.edicion)} ${medicina.numeroPastillas}\n${getString(R.string.editorial)} ${medicina.usadaPara}")
                 startActivity(intent)
                 return true
@@ -71,7 +71,7 @@ class DetailsActivity : AppCompatActivity() {
             R.id.item_menu_editar -> {
                 val intent = Intent(this, CreateMedicinaActivity::class.java)
                 intent.putExtra("tipo", "Edit")
-                intent.putExtra("libro", medicina)
+                intent.putExtra("medicina", medicina)
                 startActivity(intent)
                 return true
             }

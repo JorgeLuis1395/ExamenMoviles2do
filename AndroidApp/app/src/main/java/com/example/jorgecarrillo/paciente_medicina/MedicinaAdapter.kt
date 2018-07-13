@@ -6,7 +6,7 @@ import android.view.*
 import android.widget.Button
 import android.widget.TextView
 
-class LibroAdapter(private val librosList: List<Medicina>) : RecyclerView.Adapter<LibroAdapter.MyViewHolder>() {
+class MedicinaAdapter(private val medicinaList: List<Medicina>) : RecyclerView.Adapter<MedicinaAdapter.MyViewHolder>() {
 
     private var position: Int = 0
 
@@ -26,7 +26,7 @@ class LibroAdapter(private val librosList: List<Medicina>) : RecyclerView.Adapte
         lateinit var medicina: Medicina
 
         init {
-            nombre = view.findViewById(R.id.text) as TextView
+            nombre = view.findViewById(R.id.txt_1) as TextView
             fechaCaducidad = view.findViewById(R.id.txt_2) as TextView
             composicion = view.findViewById(R.id.txt_3) as TextView
             usadaPara = view.findViewById(R.id.btn_1)as Button
@@ -48,10 +48,10 @@ class LibroAdapter(private val librosList: List<Medicina>) : RecyclerView.Adapte
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val medicinas = librosList[position]
+        val medicinas = medicinaList[position]
         holder.nombre.text = medicinas.nombre
         holder.fechaCaducidad.text = medicinas.fechaCaducidad
-        holder.composicion.text = medicinas.composicion
+        holder.composicion.text = medicinas.usadaPara
         holder.medicina = medicinas
         holder.usadaPara.setOnClickListener{
             v: View ->
@@ -66,7 +66,7 @@ class LibroAdapter(private val librosList: List<Medicina>) : RecyclerView.Adapte
     }
 
     override fun getItemCount(): Int {
-        return librosList.size
+        return medicinaList.size
     }
 
 }

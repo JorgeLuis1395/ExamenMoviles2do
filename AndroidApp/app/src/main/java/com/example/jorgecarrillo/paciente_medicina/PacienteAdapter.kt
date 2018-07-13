@@ -6,7 +6,7 @@ import android.view.*
 import android.widget.Button
 import android.widget.TextView
 
-class PacienteAdapter(private val autorsList: List<Paciente>) : RecyclerView.Adapter<PacienteAdapter.MyViewHolder>() {
+class PacienteAdapter(private val pacienteList: List<Paciente>) : RecyclerView.Adapter<PacienteAdapter.MyViewHolder>() {
 
     private var position: Int = 0
 
@@ -24,7 +24,7 @@ class PacienteAdapter(private val autorsList: List<Paciente>) : RecyclerView.Ada
         var fechaNacimiento: TextView
         var numeroHijos: TextView
         var detalles: Button
-        lateinit var autor: Paciente
+        lateinit var paciente: Paciente
 
         init {
             nombre = view.findViewById(R.id.txt_1) as TextView
@@ -49,16 +49,16 @@ class PacienteAdapter(private val autorsList: List<Paciente>) : RecyclerView.Ada
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val autor = autorsList[position]
-        holder.nombre.text = autor.nombre
-        holder.fechaNacimiento.text = autor.fechaNacimiento
-        holder.numeroHijos.text = autor.numeroHijos
+        val paciente = pacienteList[position]
+        holder.nombre.text = paciente.nombre
+        holder.fechaNacimiento.text = paciente.fechaNacimiento
+        holder.numeroHijos.text = paciente.numeroHijos
                 .toString()
-        holder.autor = autor
+        holder.paciente = paciente
         holder.detalles.setOnClickListener{
             v: View ->
             val intent = Intent(v.context, DetailsActivity::class.java)
-            intent.putExtra("autor", autor)
+            intent.putExtra("paciente", paciente)
             v.context.startActivity(intent)
         }
         holder.itemView.setOnLongClickListener {
@@ -68,7 +68,7 @@ class PacienteAdapter(private val autorsList: List<Paciente>) : RecyclerView.Ada
     }
 
     override fun getItemCount(): Int {
-        return autorsList.size
+        return pacienteList.size
     }
 
 }

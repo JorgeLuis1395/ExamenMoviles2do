@@ -15,20 +15,20 @@ import kotlinx.android.synthetic.main.activity_details.*
 class ListaMedicinaActivity : AppCompatActivity() {
 
     var paciente: Paciente? = null
-    lateinit var adaptador: LibroAdapter
+    lateinit var adaptador: MedicinaAdapter
     lateinit var medicina: ArrayList<Medicina>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lista_medicina)
 
-        paciente = intent.getParcelableExtra("autor")
+        paciente = intent.getParcelableExtra("paciente")
 
 
         medicina = DataBaseMedicina.getList()
 
         val layoutManager = LinearLayoutManager(this)
-        adaptador = LibroAdapter(medicina)
+        adaptador = MedicinaAdapter(medicina)
         recycler_view_book.layoutManager = layoutManager
         recycler_view_book.itemAnimator = DefaultItemAnimator()
         recycler_view_book.adapter = adaptador
@@ -37,13 +37,13 @@ class ListaMedicinaActivity : AppCompatActivity() {
         registerForContextMenu(recycler_view_book)
 
         btnNuevoLibro.setOnClickListener{
-            v: View? ->  crearLibro()
+            v: View? ->  crearMedicina()
         }
 
 
     }
 
-    fun crearLibro() {
+    fun crearMedicina() {
         val intent = Intent(this, CreateMedicinaActivity::class.java)
         intent.putExtra("tipo", "Create")
         intent.putExtra("idPaciente", paciente?.id!!)
@@ -67,7 +67,7 @@ class ListaMedicinaActivity : AppCompatActivity() {
             R.id.item_menu_editar -> {
                 val intent = Intent(this, CreateMedicinaActivity::class.java)
                 intent.putExtra("tipo", "Edit")
-                intent.putExtra("libro", medicina)
+                intent.putExtra("medicina", medicina)
                 startActivity(intent)
                 return true
             }

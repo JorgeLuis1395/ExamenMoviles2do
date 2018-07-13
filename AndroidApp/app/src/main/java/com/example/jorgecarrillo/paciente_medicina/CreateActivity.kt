@@ -28,7 +28,7 @@ class CreateActivity : AppCompatActivity() {
         }
 
         btnCrearAutor.setOnClickListener{
-            v: View? -> crearAutor()
+            v: View? -> crearPaciente()
         }
     }
 
@@ -42,7 +42,7 @@ class CreateActivity : AppCompatActivity() {
         }
     }
 
-    fun crearAutor() {
+    fun crearPaciente() {
         var nombre = txtNombreAutor.text.toString()
         var apellido = txtApellidoAutor.text.toString()
         var fecha = txtFechaAutor.text.toString()

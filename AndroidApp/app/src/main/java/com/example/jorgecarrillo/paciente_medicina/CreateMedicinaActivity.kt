@@ -22,16 +22,16 @@ class CreateMedicinaActivity : AppCompatActivity() {
 
         if (type.equals("Edit")) {
             textViewLibro.text = getString(R.string.edit_book)
-            medicina = intent.getParcelableExtra("libro")
+            medicina = intent.getParcelableExtra("medicina")
             idMedicina = medicina!!.id
             fillFields()
             tipo = true
         }
 
-        idPaciente = intent.getIntExtra("idAutor", 0)
+        idPaciente = intent.getIntExtra("idPaciente", 0)
 
         btnCrearLibro.setOnClickListener{
-            v: View? ->  crearLibro()
+            v: View? ->  crearMedicina()
         }
     }
 
@@ -44,7 +44,7 @@ class CreateMedicinaActivity : AppCompatActivity() {
         txtEditorialLibro.setText(medicina?.usadaPara)
     }
 
-    fun crearLibro() {
+    fun crearMedicina() {
         var gramosAConsumir = txtISBNLibro.text.toString()
         var nombre = txtNombreLibro.text.toString()
         var numeroPastillas = txtNPagLibro.text.toString().toInt()

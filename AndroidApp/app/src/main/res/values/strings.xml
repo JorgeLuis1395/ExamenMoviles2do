@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Examen Moviles</string>
-    <string name="libro">Medicina</string>
+    <string name="medicina">Medicina</string>
     <string name="paciente">Paciente</string>
     <string name="details_btn">Detalles</string>
     <string name="create_btn">Guardar</string>
@@ -37,5 +37,6 @@
     <string name="title_activity_create_activity">CreateActivityActivity</string>
     <string name="button_find">Buscar</string>
     <string name="button_medicinas">Ver Medicinas</string>
+    <string name="passwordUser">Contraseña</string>
 
 </resources>

@@ -20,10 +20,6 @@ module.exports = {
     pacienteId: {
       model: 'Paciente'
     },
-    medicinaId: {
-      model: 'Medicina'
-    },
-
   },
 
 };

@@ -15,7 +15,7 @@ class DetailsMedicinaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_medicina)
 
-        medicina= intent.getParcelableExtra("libro")
+        medicina= intent.getParcelableExtra("medicina")
 
         txtShowIsbn.text = medicina?.gramosAConsumir
         txtShowNombreLibro.text = medicina?.nombre

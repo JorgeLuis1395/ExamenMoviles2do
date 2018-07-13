@@ -24,6 +24,9 @@ module.exports = {
     afiliado: {
       type: 'number'
     },
+    contraseña: {
+      type: 'string'
+    },
     medicina: {
       collection: 'Medicina',
       via: 'pacienteId'

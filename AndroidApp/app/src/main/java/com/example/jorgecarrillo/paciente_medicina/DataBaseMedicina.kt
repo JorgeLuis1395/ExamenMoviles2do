@@ -21,7 +21,7 @@ class DataBaseMedicina {
         }
 
         fun updateMedicina(medicina: Medicina) {
-            "http://192.168.1.7:1337/Medicina/${medicina.id}".httpPut(listOf("gramosAConsumir" to medicina.gramosAConsumir, "nombre" to medicina.nombre, "numeroPastillas" to medicina.numeroPastillas, "composicon" to medicina.composicion, "fechaCaducidad" to medicina.fechaCaducidad, "usadaPara" to medicina.usadaPara, "pacienteId" to medicina.pacienteID))
+            "http://192.168.1.7:1337/Medicina/${medicina.id}".httpPut(listOf("gramosAConsumir" to medicina.gramosAConsumir, "nombre" to medicina.nombre, "numeroPastillas" to medicina.numeroPastillas, "composicon" to medicina.composicion, "fechaCaducidad" to medicina.fechaCaducidad, "usadaPara" to medicina.usadaPara))
                     .responseString { request, _, result ->
                         Log.d("http-ejemplo", request.toString())
                     }
