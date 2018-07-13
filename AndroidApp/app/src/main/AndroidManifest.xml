@@ -26,7 +26,15 @@
             android:label="@string/title_activity_login" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MedicinaActivity" />
-        <activity android:name=".DeliveryActivity"></activity>
+        <activity android:name=".DeliveryActivity" />
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateActivityActivity"
+            android:label="@string/title_activity_create_activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.jorgecarrillo.paciente_medicina
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -8,12 +9,20 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
+import kotlinx.android.synthetic.main.activity_main2.*
 
 class Main2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
+        btn_crear.setOnClickListener{
+            v: View? ->  irACreateView()
+        }
+
+        btn_listar.setOnClickListener{
+            v: View? ->  irAListView()
+        }
 
     }
 
@@ -37,5 +46,14 @@ class Main2Activity : AppCompatActivity() {
             }
         }
     }
+    fun irAListView() {
+        val intent = Intent(this, ListActivity::class.java)
+        startActivity(intent)
+    }
 
+    fun irACreateView() {
+        val intent = Intent(this, CreateActivity::class.java)
+        intent.putExtra("tipo", "Create")
+        startActivity(intent)
+    }
 }

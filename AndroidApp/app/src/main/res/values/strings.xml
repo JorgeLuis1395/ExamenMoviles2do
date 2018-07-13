@@ -1,18 +1,40 @@
 <resources>
-    <string name="app_name">Paciente-Medicina</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="app_name">Examen Moviles</string>
+    <string name="libro">Medicina</string>
+    <string name="autor">Paciente</string>
+    <string name="details_btn">Detalles</string>
+    <string name="create_btn">Guardar</string>
+    <string name="create">Crear</string>
+    <string name="list_btn">Listar</string>
+    <string name="new_btn">Nuevo</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="details_autor">Detalles Paciente</string>
+    <string name="create_autor">Creacion Paciente</string>
+    <string name="edit_autor">Editar Paciente</string>
+    <string name="details_book">Detalles Medicina</string>
+    <string name="create_book">Creacion Medicina</string>
+    <string name="edit_book">Editar Medicina</string>
+    <string name="book_listt">Lista Medicina</string>
+    <string name="name">Nombre:</string>
+    <string name="last_name">Apellido:</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento:</string>
+    <string name="numero_libros">Numero Hijos:</string>
+    <string name="ecuatoriano">Afiliado:</string>
+    <string name="isbn">Gramos A Consumir:</string>
+    <string name="numero_paginas">Cantidad a Ingerir:</string>
+    <string name="edicion">Descripcion:</string>
+    <string name="fecha_publicacion">Fecha Caducidad:</string>
+    <string name="editorial">Composion:</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="confirmation">Seguro desea eliminar?</string>
+    <string name="btn_listar2">Mapas</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_login">Inicio</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_create_activity">CreateActivityActivity</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
 
 </resources>
