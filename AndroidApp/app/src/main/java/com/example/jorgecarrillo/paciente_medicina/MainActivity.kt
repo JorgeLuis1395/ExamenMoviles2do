@@ -1,5 +1,6 @@
 package com.example.jorgecarrillo.paciente_medicina
 
+import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +10,7 @@ import android.widget.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),AdapterView.OnItemSelectedListener {
-    var tipoUsuario = arrayOf("Paciente", "Medicina", "Delivery")
+    var tipoUsuario = arrayOf("Seleccionar","Vendedor", "Cliente", "Delivery")
     var spinner:Spinner? = null
     var textView_msg:TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,24 +32,26 @@ class MainActivity : AppCompatActivity(),AdapterView.OnItemSelectedListener {
     override fun onItemSelected(arg0: AdapterView<*>, arg1: View, position: Int, id: Long) {
        Log.d("Erroe" , "Selected : "+tipoUsuario[position])
         Log.d("Erroe" , "Selected : "+editTextNombreUsuario.text.toString())
-        if(tipoUsuario[position] == "Paciente" && editTextNombreUsuario.text.toString() == "Jorge"  && editTextContraseña.text.toString() == "1234") {
-            Log.d("Erroe", "Bienvenido al Sistema")
-                    title_activity_login.setOnClickListener { v: View? ->
-                irActividadPaciente()
-            }
+        if(tipoUsuario[position] == "Vendedor" && editTextNombreUsuario.text.toString() == "Jorge"  && editTextContraseña.text.toString() == "1234") {
+            irActividadPaciente()
+        }
+        else
+        {
+            title_activity_login.setOnClickListener{v: View? ->  toast("Datos Incorrectos")}
         }
 
-            if(tipoUsuario[position] == "Medicina" && editTextNombreUsuario.text.toString() == "Luis"  && editTextContraseña.text.toString() == "root"){
-                Log.d("Erroe" , "Bienvenido al Sistema")
-                title_activity_login.setOnClickListener{
-                    v: View? ->  irActividadMedicina()
-                }
-        }
+            if(tipoUsuario[position] == "Cliente" && editTextNombreUsuario.text.toString() == "Luis"  && editTextContraseña.text.toString() == "root"){
+                irActividadMedicina()
+        }else
+            {
+                title_activity_login.setOnClickListener{v: View? ->  toast("Datos Incorrectos")}
+            }
             if(tipoUsuario[position] == "Delivery" && editTextNombreUsuario.text.toString() == "Pepe"  && editTextContraseña.text.toString() == "Pepe1234") {
-                Log.d("Erroe", "Bienvenido al Sistema")
-                title_activity_login.setOnClickListener { v: View? ->
-                    irActividadDelivery()
-                }
+                irActividadDelivery()
+            }
+            else
+            {
+                title_activity_login.setOnClickListener{v: View? ->  toast("Datos Incorrectos")}
             }
 
     }
@@ -59,13 +62,19 @@ class MainActivity : AppCompatActivity(),AdapterView.OnItemSelectedListener {
     fun irActividadPaciente(){
         var intent = Intent(this, Main2Activity::class.java)
         startActivity(intent)
+        toast("Bienvenido al Sistema")
     }
     fun irActividadMedicina(){
         var intent = Intent(this, MedicinaActivity::class.java)
         startActivity(intent)
+        toast("Bienvenido al Sistema")
     }
     fun irActividadDelivery(){
         var intent = Intent(this, DeliveryActivity::class.java)
         startActivity(intent)
+        toast("Bienvenido al Sistema")
+    }
+    fun Activity.toast(message: CharSequence, duration: Int = Toast.LENGTH_LONG) {
+        Toast.makeText(this, message, duration).show()
     }
 }

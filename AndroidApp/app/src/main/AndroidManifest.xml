@@ -34,7 +34,8 @@
         <activity android:name=".CreateMedicinaActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".DetailsMedicinaActivity" />
-        <activity android:name=".FindActivity"></activity>
+        <activity android:name=".FindActivity" />
+        <activity android:name=".ListaMedicinaActivity"></activity>
     </application>
 
 </manifest>

@@ -59,7 +59,33 @@ class DataBaseMedicina {
             return medicinas
         }
 
+
+        fun getList(): ArrayList<Medicina> {
+            val medicinas: ArrayList<Medicina> = ArrayList()
+            val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
+            StrictMode.setThreadPolicy(policy)
+            val (request, response, result) = "http://192.168.1.7:1337/Medicina".httpGet().responseString()
+            val jsonStringPaciente = result.get()
+
+            val parser = Parser()
+            val stringBuilder = StringBuilder(jsonStringPaciente)
+            val array = parser.parse(stringBuilder) as JsonArray<JsonObject>
+
+            array.forEach {
+                val id = it["id"] as Int
+                val gramosAConsumir = it["gramosAConsumir"] as String
+                val nombre = it["nombre"] as String
+                val numeroPastillas = it["numeroPastillas"] as Int
+                val composicion = it["composicion"] as String
+                val fechaCaducidad = it["fechaCaducidad"] as String
+                val usadaPara = it["usadaPara"] as String
+                val idPaciente = it["idPaciente"] as Int
+                val medicina = Medicina(id, gramosAConsumir, nombre, numeroPastillas, composicion, fechaCaducidad, usadaPara, idPaciente, 0, 0)
+                medicinas.add(medicina)
+            }
+            return medicinas
+        }
     }
-
-
 }
+
+

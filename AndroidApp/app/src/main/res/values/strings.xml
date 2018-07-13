@@ -36,5 +36,6 @@
     <string name="title_activity_list">ListActivity</string>
     <string name="title_activity_create_activity">CreateActivityActivity</string>
     <string name="button_find">Buscar</string>
+    <string name="button_medicinas">Ver Medicinas</string>
 
 </resources>
