@@ -4,11 +4,13 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.AdapterView
+import com.example.jorgecarrillo.paciente_medicina.Vendedor.CreateActivity
+import com.example.jorgecarrillo.paciente_medicina.Vendedor.ListActivity
+import com.onesignal.OneSignal
+import com.tapadoo.alerter.Alerter
 import kotlinx.android.synthetic.main.activity_main2.*
 
 class Main2Activity : AppCompatActivity() {
@@ -23,6 +25,16 @@ class Main2Activity : AppCompatActivity() {
         btn_listar.setOnClickListener{
             v: View? ->  irAListView()
         }
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .unsubscribeWhenNotificationsAreDisabled(true)
+                .init();
+
+
+        Alerter.create(this@Main2Activity)
+                .setTitle("Hola")
+                .setText("Bienvenido")
+                .show()
 
     }
 

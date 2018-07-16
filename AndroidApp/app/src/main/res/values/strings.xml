@@ -38,5 +38,8 @@
     <string name="button_find">Buscar</string>
     <string name="button_medicinas">Ver Medicinas</string>
     <string name="passwordUser">Contraseña</string>
-
+    <string name="buttonCamara">Tomar Foto</string>
+    <string name="image_view_camara">fotoMedicina</string>
+    <string name="title_activity_seleccionar_ubicacion">Map</string>
+    <string name="title_activity_ubicacion_entrega">Map</string>
 </resources>

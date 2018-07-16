@@ -6,9 +6,124 @@
   <component name="ChangeListManager">
     <list default="true" id="1d515503-82fb-4544-9173-ca8ad36e3d80" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/CreateActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/CreateMedicinaActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/DataBaseMedicina.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/DataBasePaciente.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/DetailsActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/DetailsMedicinaActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/FindActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/ListActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/ListaMedicinaActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/Main2Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/Main2Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/Medicina.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/MedicinaActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/MedicinaAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/OrdenesClientesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/OrdenesClientesActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/Paciente.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/PacienteAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/SeleccionarUbicacionActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_create.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_create_medicina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_create_medicina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_details_medicina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_details_medicina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_find.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_find.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_lista_medicina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_lista_medicina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_medicina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_medicina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_ordenes_clientes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_ordenes_clientes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_seleccionar_ubicacion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_seleccionar_ubicacion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/.sailsrc" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/.sailsrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/DetalleOrdenController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/DetalleOrdenController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/FotosController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/FotosController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/LoginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/LoginController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/MedicinaController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/MedicinaController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/OrdenesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/OrdenesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/controllers/PacienteController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/controllers/PacienteController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/helpers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/helpers/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/DetalleOrden.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/DetalleOrden.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Detalle_Orden.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Detalle_Orden.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Fotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Fotos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Medicina.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Medicina.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Ordenes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Ordenes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/api/policies/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/api/policies/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/dependencies/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/dependencies/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/dependencies/sails.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/dependencies/sails.io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/images/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/images/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/js/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/js/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/styles/importer.less" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/styles/importer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/assets/templates/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/assets/templates/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/blueprints.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/blueprints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/datastores.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/datastores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/env/production.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/env/production.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/globals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/locales/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/locales/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/locales/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/policies.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/policies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/security.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/sockets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/config/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/config/views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/coffee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/concat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/copy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/cssmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/cssmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/hash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/jst.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/jst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/sails-linker.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/sails-linker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/uglify.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/uglify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/config/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/config/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/pipeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/pipeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/buildProd.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/buildProd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/compileAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/compileAssets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssetsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssetsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssetsBuildProd.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/linkAssetsBuildProd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/polyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/polyfill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/tasks/register/syncAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/tasks/register/syncAssets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/views/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/views/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/views/500.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/views/500.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/views/layouts/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/views/layouts/layout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorExamen/views/pages/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/ServidorExamen/views/pages/homepage.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,32 +141,89 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ExamenMoviles2do" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Paciente.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
+      <file leaf-file-name="Usuario.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Usuario.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="458">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
+      <file leaf-file-name="Paciente.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="789">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ordenes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Ordenes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetalleOrden.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/DetalleOrden.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Medicina.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Medicina.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Medicina.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Medicina.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paciente.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Paciente.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fotos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Fotos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.sailssrc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +248,13 @@
       <list>
         <option value="$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js" />
         <option value="$PROJECT_DIR$/ServidorExamen/api/models/Login.js" />
+        <option value="$PROJECT_DIR$/ServidorExamen/.sailsrc" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/Paciente.js" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/Medicina.js" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/Ordenes.js" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/Fotos.js" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/DetalleOrden.js" />
+        <option value="$PROJECT_DIR$/ServidoExamenM/api/models/Usuario.js" />
       </list>
     </option>
   </component>
@@ -86,15 +265,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/ServidorExamen/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ServidoExamenM/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ServidoExamenM/package.json" />
       <path value="$PROJECT_DIR$/ServidorExamen/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1346" />
+    <option name="x" value="138" />
     <option name="y" value="23" />
     <option name="width" value="1214" />
     <option name="height" value="1337" />
@@ -232,7 +412,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,18 +422,18 @@
             <path>
               <item name="ExamenMoviles2do" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExamenMoviles2do" type="462c0819:PsiDirectoryNode" />
-              <item name="ServidorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="ServidoExamenM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExamenMoviles2do" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExamenMoviles2do" type="462c0819:PsiDirectoryNode" />
-              <item name="ServidorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="ServidoExamenM" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExamenMoviles2do" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExamenMoviles2do" type="462c0819:PsiDirectoryNode" />
-              <item name="ServidorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="ServidoExamenM" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -262,6 +441,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -455,39 +635,44 @@
       <workItem from="1531277128579" duration="575000" />
       <workItem from="1531371748489" duration="147000" />
       <workItem from="1531450141275" duration="1223000" />
-      <workItem from="1531486173010" duration="331000" />
+      <workItem from="1531486173010" duration="538000" />
+      <workItem from="1531541212761" duration="326000" />
+      <workItem from="1531579945777" duration="2923000" />
+      <workItem from="1531701439704" duration="1659000" />
+      <workItem from="1531703406388" duration="89000" />
+      <workItem from="1531703530301" duration="284000" />
+      <workItem from="1531704787207" duration="4162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2234000" />
+    <option name="totallyTimeSpent" value="11884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1346" y="23" width="1214" height="1337" extended-state="0" />
+    <frame x="138" y="23" width="1214" height="1337" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30642503" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958813" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32927758" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32927758" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -498,15 +683,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/node_modules/sails/lib/app/private/loadHooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7030">
+          <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/views/pages/homepage.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="9" column="5061" lean-forward="true" selection-start-line="9" selection-start-column="5061" selection-end-line="9" selection-end-column="5061" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/node_modules/rc/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/node_modules/rc/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/lib/app/configuration/rc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/bin/sails-lift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
           <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Medicina.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,20 +778,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jorgecarrillo/paciente_medicina/MainActivity.kt" />
-    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/node_modules/sails/bin/sails-deploy.js" />
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/.sailsrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/views/pages/homepage.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="9" column="5061" selection-start-line="9" selection-start-column="5061" selection-end-line="9" selection-end-column="5061" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/node_modules/rc/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/node_modules/rc/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/lib/app/configuration/rc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/node_modules/sails/bin/sails-lift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/node_modules/sails/lib/app/private/loadHooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="200" column="60" selection-start-line="200" selection-start-column="60" selection-end-line="200" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Medicina.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="452">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidorExamen/api/models/Paciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Fotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Ordenes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/DetalleOrden.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Paciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServidoExamenM/api/models/Medicina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
